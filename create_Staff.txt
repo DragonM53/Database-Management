@@ -1,0 +1,8 @@
+CREATE TABLE Staff (
+	StaffNo    char(4) not null,
+        StaffName  varchar(30) not null,
+        DeptCode   char(3) not null,
+        ICNo       char(12) not null,
+	PRIMARY KEY(StaffNo),
+        constraint chk_icno check (REGEXP_LIKE(ICNo, '[0-9][0-9][0-1][0-9][0-3][0-9][0-9][0-9][0-9][0-9][0-9][0-9]'))     
+);

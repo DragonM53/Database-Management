@@ -1,0 +1,10 @@
+insert into PaymentType values('VSCC', 'Visa Credit Card');
+insert into PaymentType values('MSCC', 'Mastercard Credit Card');
+insert into PaymentType values('AECC', 'American Express Credit Card');
+insert into PaymentType values('CASH', 'Cash');
+insert into PaymentType values('CHEQ', 'Cheque');
+insert into PaymentType values('MBPT', 'Membership Points');
+insert into PaymentType values('DBCD', 'Debit Card');
+insert into PaymentType values('TNGO', 'Touch N Go');
+insert into PaymentType values('GBAB', 'Grab E-wallet');
+insert into PaymentType values('ONBK', 'Online Banking');

@@ -1,0 +1,7 @@
+CREATE TABLE Membership(
+	GuestID                 char(5) NOT NULL,
+	MemPoints 	        number(5) DEFAULT 0, 
+	JoinDate 		date DEFAULT TO_DATE(SYSDATE, 'DD-MON-YYYY') not null,
+	Primary key(GuestID),
+        Foreign Key(GuestID) References Guest        
+);

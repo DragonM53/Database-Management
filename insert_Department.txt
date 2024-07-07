@@ -1,0 +1,11 @@
+insert into Department values('ADM','Administration');
+insert into Department values('TOU','Tour');
+insert into Department values('MAI','Maintenance');
+insert into Department values('HSK','Housekeeping');
+insert into Department values('SNM','Sales and Marketing');
+insert into Department values('PRE','Public Relations');
+insert into Department values('SEC','Security');
+insert into Department values('CUS','Customer Service');
+insert into Department values('HUR','Human Resources');
+insert into Department values('KIT','Kitchen');
+insert into Department values('ACC','Accounting');

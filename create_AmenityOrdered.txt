@@ -1,0 +1,7 @@
+CREATE TABLE AmenityOrdered (
+   AmenityOrdID   char(6)   not null,
+   RoomLeasedID   number(4)   not null,
+   OrdDate        date DEFAULT TO_DATE(SYSDATE, 'DD-MON-YYYY') not null,
+   primary key(AmenityOrdID),
+   foreign key(RoomLeasedID) references RoomLeased
+);

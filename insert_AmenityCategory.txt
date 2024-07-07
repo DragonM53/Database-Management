@@ -1,0 +1,10 @@
+insert into AmenityCategory values('AM01','Welcome Gifts');
+insert into AmenityCategory values('AM02','Bedroom Amenities');
+insert into AmenityCategory values('AM03','Room Cleaning');
+insert into AmenityCategory values('AM04','In-Room Dining');
+insert into AmenityCategory values('AM05','Vehicle Parking');
+insert into AmenityCategory values('AM06','VIP Reservation');
+insert into AmenityCategory values('AM07','Added Toiletrees');
+insert into AmenityCategory values('AM08','Snacks and Drinks');
+insert into AmenityCategory values('AM09','Relaxation');
+insert into AmenityCategory values('AM10','Activities');

@@ -1,0 +1,14 @@
+CREATE TABLE TourOrdered (
+	TourOrderedNo	CHAR(5) not null,
+	TourCode        CHAR(3) not null,
+	ReservNo	CHAR(6) not null, 
+	StaffNo		CHAR(4),
+	VehicleRegNo	CHAR(15),
+	TourDate	DATE not null,
+	NoPerson	NUMBER(2) not null,
+	PRIMARY KEY(TourOrderedNo),
+	FOREIGN KEY(TourCode) REFERENCES Tour(TourCode),
+	FOREIGN KEY(ReservNo) REFERENCES Reservation,
+	FOREIGN KEY(StaffNo) REFERENCES Staff,
+	FOREIGN KEY(VehicleRegNo) REFERENCES Vehicle(VehicleRegNo)
+);

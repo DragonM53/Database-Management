@@ -1,0 +1,9 @@
+CREATE TABLE Tour (
+	TourCode	CHAR(3) not null,	
+	TourPrice	NUMBER(3) not null,
+	TourDesc	VARCHAR(80) not null,
+	MaxPeople	NUMBER(2) not null,
+	Is3rdParty	CHAR(1) default 'N' not null CHECK(UPPER(Is3rdParty) IN ('Y','N')),
+	IsPkg 		CHAR(1) default 'N' not null CHECK(UPPER(IsPkg) IN ('Y','N')),
+	PRIMARY KEY(TourCode)
+);

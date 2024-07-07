@@ -1,0 +1,33 @@
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY';
+
+--QUERY 1
+--FOR EXMAPLE CAN RUN DATE 01/JAN/2020, 31/DEC/2020
+SET LINESIZE 140
+SET PAGESIZE 140
+CREATE OR REPLACE VIEW Read_Comdet AS
+SELECT CompanyName AS Company_Name, CAST(CompanyCode AS CHAR(15)) AS Company_Code
+FROM CorporateDiscount
+WHERE discountpct > 0;
+ACCEPT start_date DATE FORMAT 'DD/MON/YYYY' PROMPT 'Enter start date (DD/MON/YYYY)--> ';
+ACCEPT end_date DATE FORMAT 'DD/MON/YYYY' PROMPT 'Enter end date (DD/MON/YYYY)--> ';
+SELECT * FROM Read_Comdet;
+ACCEPT com_code PROMPT 'Enter the company code that you want to view--> ';
+BREAK ON CompanyName SKIP 1;
+COMPUTE SUM LABEL 'TOTAL BILLS' OF "Total Amount (RM)" ON CompanyName;
+SET UNDERLINE =
+SET SPACE 3
+TTITLE CENTER 'QUERY 1' SKIP 2
+column companyName format a40 heading 'Company Name'
+column companycode format a15 heading 'Company Code'
+column paytypename format a30 heading 'Payment Type'
+SELECT CompanyName, paytypename, COUNT(P.paytypecode) as "Total Transaction", SUM(payamt) as "Total Amount (RM)"
+FROM paymenttype PT , Payment P, corporatediscount C
+WHERE PT.paytypecode = P.paytypecode AND (PAYDATE BETWEEN '&start_date' AND '&end_date') AND DiscountPct > 0 AND CompanyCode = UPPER('&com_code')
+GROUP BY paytypename, companyName, CompanyCode
+ORDER BY CompanyName ASC;
+
+--RUN THIS BEFORE GOING TO NEXT QUERY
+TTITLE OFF
+CLEAR BREAKS
+CLEAR COLUMNS
+BTITLE OFF

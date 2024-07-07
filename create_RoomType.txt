@@ -1,0 +1,8 @@
+CREATE TABLE RoomType (
+   RoomTypeCode  CHAR(2) not null CHECK(LENGTH(RoomTypeCode) = 2),
+   RoomTypeName  VARCHAR(18) not null,
+   BedType       CHAR(2) not null CHECK(UPPER(BedType) IN ('SI', 'DO', 'QU', 'DX', 'KI')),
+   RoomPrice     NUMBER(4) not null,
+   MaxOccupants  NUMBER(1) not null,
+   PRIMARY KEY(RoomTypeCode)
+);

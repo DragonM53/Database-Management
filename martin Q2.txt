@@ -1,0 +1,63 @@
+ALTER SESSION SET NLS_DATE_FORMAT= 'DD/MM/YYYY';
+
+SET LINESIZE 130
+SET PAGESIZE 130
+ACCEPT guestid CHAR PROMPT 'Please enter guest ID: ';
+
+column GuestID format a10 heading 'Guest ID'
+column GuestName format a30 heading 'Guest Name'
+column IsMember format a20 heading 'Is member (Y/N)'
+column reservno format a20 heading 'Reservation Number'
+column payamt format 999999.99 heading 'Payment Amount'
+column mempoints format 99999 heading 'Membership Points'
+BREAK ON GuestID Skip 1;
+COMPUTE SUM LABEL 'TOTAL BILL' OF payamt ON GuestID;
+SELECT G.GuestID, GuestName, IsMember, MemPoints, R.reservno, payamt
+FROM  Guest G, Membership M, Reservation R, Payment P
+WHERE G.GuestID = '&guestid' AND G.GuestID = M.GuestID AND IsMember = 'Y' AND G.GuestID = R.GuestID AND P.reservno = R.reservno;
+
+DEFINE paypnts = 'n'
+ACCEPT paypnts CHAR PROMPT 'Do you want to pay using membership points: (y/n): ';
+
+SET SERVEROUTPUT ON
+
+DECLARE
+mem_points membership.MemPoints%TYPE;
+total_bills payment.payamt%TYPE;
+update_points membership.MemPoints%TYPE;
+
+BEGIN 
+IF '&paypnts' = 'y' THEN
+SELECT MemPoints INTO mem_points
+FROM membership M, Guest G
+WHERE G.GuestID = '&guestid' AND G.GuestID = M.GuestID;
+DBMS_OUTPUT.PUT_LINE('Membership points: ' || mem_points);
+SELECT SUM(payamt) INTO total_bills
+FROM Payment P, Reservation R, Guest G
+WHERE P.reservno = R.reservno AND R.GuestID = G.GuestID AND G.GuestID = '&guestid';
+DBMS_OUTPUT.PUT_LINE('Total bill: ' || total_bills);
+IF mem_points >= total_bills THEN
+DBMS_OUTPUT.PUT_LINE('Transaction processing.....');
+SELECT (mem_points - total_bills) INTO update_points
+FROM membership
+WHERE GuestID = '&guestid';
+DBMS_OUTPUT.PUT_LINE('Updated membership points: ' || update_points);
+DBMS_OUTPUT.PUT_LINE('PAYMENT SUCCESSFUL!');
+UPDATE MEMBERSHIP
+SET MemPoints = update_points
+WHERE GuestID = '&guestid';
+ELSE
+DBMS_OUTPUT.PUT_LINE('Insufficient membership points!, please use another type of payment!');
+END IF;
+ELSE
+DBMS_OUTPUT.PUT_LINE('Invalid input, please try again!');
+END IF;
+END;
+/
+
+
+--RUN THIS BEFORE GOING TO NEXT QUERY
+TTITLE OFF
+CLEAR BREAKS
+CLEAR COLUMNS
+BTITLE OFF

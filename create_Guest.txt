@@ -1,0 +1,17 @@
+CREATE TABLE Guest (
+	GuestID 	        char(5) NOT NULL,
+	GuestName               varchar(30) NOT NULL,
+	IDNo 			varchar(15) NOT NULL,
+	EmailAddress 		varchar(30),
+	ContactNumber 		varchar(13) not null,
+	ResidenceStat 		char(1) DEFAULT 'L' CHECK(UPPER(ResidenceStat) IN ('L','F')) NOT NULL,
+	IsMember 		char(1) DEFAULT 'N' CHECK(UPPER(IsMember) IN ('Y','N')) NOT NULL ,
+	IsCorporateCustomer	char(1) DEFAULT 'N' CHECK(UPPER(IsCorporateCustomer) IN ('Y','N')) NOT NULL ,
+	CompanyCode 		char(5) DEFAULT 'NOTAP' not null,
+	Primary KEY(GuestID),
+        FOREIGN KEY(CompanyCode) REFERENCES CorporateDiscount,
+        constraint chk_guestName check (REGEXP_LIKE(GuestName ,  '^[A-Z a-z\s\-]+$')), 
+	constraint chk_eml check (REGEXP_LIKE(EmailAddress,'^[a-zA-Z]\w+@(\S+)$')),
+        constraint chk_contnum check (ContactNumber LIKE '60%' AND UPPER(ResidenceStat) = 'L' OR UPPER(ResidenceStat) = 'F'),
+        constraint chk_idno check (REGEXP_LIKE(IDNo, '[0-9][0-9][0-1][0-9][0-3][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') AND UPPER(ResidenceStat) = 'L' OR UPPER(ResidenceStat) = 'F')
+);

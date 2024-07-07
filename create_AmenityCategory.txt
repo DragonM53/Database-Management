@@ -1,0 +1,5 @@
+CREATE TABLE AmenityCategory (
+   AmenityCatCode   char(4)   not null,
+   AmenityCatName   varchar(25)  not null,
+   Primary Key(AmenityCatCode)
+);

@@ -1,0 +1,12 @@
+CREATE TABLE RoomLeased(
+   RoomLeasedID  NUMBER(4) not null,
+   ReservNo      CHAR(6) not null,
+   RoomNo        NUMBER(3) not null,
+   CheckInDate   DATE not null,
+   CheckOutDate  DATE not null,
+   NoOccupants   NUMBER(1) not null,
+   CONSTRAINT Chk_Room_Date CHECK(CheckOutDate > CheckInDate),
+   PRIMARY KEY(RoomLeasedID),
+   FOREIGN KEY(ReservNo) REFERENCES Reservation,
+   FOREIGN KEY(RoomNo) REFERENCES Room
+);

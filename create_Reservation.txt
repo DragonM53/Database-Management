@@ -1,0 +1,10 @@
+CREATE TABLE Reservation(
+   ReservNo      CHAR(6) not null,
+   GuestID       CHAR(5) not null,
+   StaffNo       char(4) not null,
+   ReservDate    DATE DEFAULT TO_DATE(SYSDATE, 'DD-MON-YYYY') not null ,
+   ReservStat    CHAR(1) not null CHECK(UPPER(ReservStat) IN ('R','I','O','C')),
+   PRIMARY KEY(ReservNo),
+   FOREIGN KEY(GuestID) REFERENCES Guest,
+   FOREIGN KEY(StaffNo) REFERENCES Staff
+);

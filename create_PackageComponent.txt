@@ -1,0 +1,7 @@
+CREATE TABLE PackageComponent(
+	PkgCode		CHAR(3) not null,
+	ComponentCode	CHAR(3) not null,
+	PRIMARY KEY(PkgCode, ComponentCode),
+	FOREIGN KEY(PkgCode) references packageTour(PkgCode),
+        FOREIGN KEY(ComponentCode) references Tour(TourCode)
+);

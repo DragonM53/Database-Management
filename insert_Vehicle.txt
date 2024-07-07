@@ -1,0 +1,11 @@
+
+INSERT INTO vehicle VALUES('9987 VBN','MCI J4500'		,'CHARTER BUS'		,60	,'To transport a large group of people'     );
+INSERT INTO vehicle VALUES('5513 WPA','ISUZU'			,'MINI BUS'        	,25	,'To transport a large group of people'     );
+INSERT INTO vehicle VALUES('6192 VPA','Toyota Hiace'		,'TOUR VAN' 		,12	,'To transport a small group of people'     );
+INSERT INTO vehicle VALUES('2198 WDP','Toyota Highlander SUV'	,'SEVEN SEATER CAR'	,7 	,'To transport a small group of people'     );
+INSERT INTO vehicle VALUES('5056 VAD','Mazda CX-5'		,'FIVE SEATER CAR'	,5 	,'To transport a very small group of people');
+INSERT INTO vehicle VALUES('8381 WPT','MCI J4500'		,'CHARTER BUS'     	,60	,'To transport a large group of people'     );
+INSERT INTO vehicle VALUES('2868 VAM','ISUZU'			,'MINI BUS'        	,25	,'To transport a large group of people'     );
+INSERT INTO vehicle VALUES('9042 WLN','Toyota Hiace'		,'TOUR VAN'        	,12	,'To transport a small group of people'     );
+INSERT INTO vehicle VALUES('9920 VGM','Toyota Highlander SUV'	,'SEVEN SEATER CAR'	,7 	,'To transport a small group of people'     );
+INSERT INTO vehicle VALUES('8785 WQK','Mazda CX-5'		,'FIVE SEATER CAR' 	,5 	,'To transport a very small group of people');

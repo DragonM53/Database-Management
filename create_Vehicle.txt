@@ -1,0 +1,8 @@
+CREATE TABLE Vehicle(
+	VehicleRegNo	CHAR(15) not null,
+	VehicleModel	VARCHAR(30) not null,
+        VehicleType	VARCHAR(20) not null,
+	MaxPassengers	NUMBER(2) not null,
+	VehicleDesc	VARCHAR(50) not null,
+	PRIMARY KEY(VehicleRegNo)
+);

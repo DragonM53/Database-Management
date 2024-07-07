@@ -1,0 +1,111 @@
+insert into Amenity values('WG01', 'AM01', 'Regular Welcome', 35.00);
+insert into Amenity values('WG02', 'AM01', 'Premium Welcome', 55.00);
+insert into Amenity values('WG03', 'AM01', 'Supreme Welcome', 80.00);
+insert into Amenity values('WG04', 'AM01', 'Valentine Welcome', 45.00);
+insert into Amenity values('WG05', 'AM01', 'Aloha Welcome', 75.00);
+insert into Amenity values('WG06', 'AM01', 'Happy Birthday Welcome', 50.00);
+insert into Amenity values('WG07', 'AM01', 'Idul Fitri Welcome', 70.00);
+insert into Amenity values('WG08', 'AM01', 'CNY Welcome', 70.00);
+insert into Amenity values('WG09', 'AM01', 'New Year Welcome', 70.00);
+insert into Amenity values('WG10', 'AM01', 'Custom Welcome', 75.00);
+
+insert into Amenity values('BE01', 'AM02', 'Rollaway Bed', 175.00);
+insert into Amenity values('BE02', 'AM02', 'Extra Pillow', 35.00);
+insert into Amenity values('BE03', 'AM02', 'Extra Blanket', 45.00);
+insert into Amenity values('BE04', 'AM02', 'Hairdryer', 25.00);
+insert into Amenity values('BE05', 'AM02', 'Sewing Kit', 15.00);
+insert into Amenity values('BE06', 'AM02', 'Tissue Box', 7.00);
+insert into Amenity values('BE07', 'AM02', 'Slippers', 15.00);
+insert into Amenity values('BE08', 'AM02', 'Coffee Kit', 45.00);
+
+insert into Amenity values('RC01', 'AM03', 'Room Cleaning Service', 40.00);
+
+insert into Amenity values('ID01', 'AM04', 'Fish and Chips', 30.00);
+insert into Amenity values('ID02', 'AM04', 'Chicken Chop', 25.00);
+insert into Amenity values('ID03', 'AM04', 'Spaghetti Bolognese', 20.00);
+insert into Amenity values('ID04', 'AM04', 'Salad', 15.00);
+insert into Amenity values('ID05', 'AM04', 'Nasi Ayam Penyet', 20.00);
+insert into Amenity values('ID06', 'AM04', 'Beef Lasagna',35.00);
+insert into Amenity values('ID07', 'AM04', 'Pesto Chicken Pasta', 25.00);
+insert into Amenity values('ID08', 'AM04', 'Sterloin Steak', 40.00);
+insert into Amenity values('ID09', 'AM04', 'Salmon Steak', 45.00);
+insert into Amenity values('ID10', 'AM04', 'Nasi Goreng SeaFood', 20.00);
+insert into Amenity values('ID11', 'AM04', 'Cream Soup', 12.00);
+insert into Amenity values('ID12', 'AM04', 'Garlic Bread', 12.00);
+insert into Amenity values('ID13', 'AM04', 'Cappucino', 12.00);
+insert into Amenity values('ID14', 'AM04', 'Americano', 8.00);
+insert into Amenity values('ID15', 'AM04', 'Caramel Latte', 15.00);
+insert into Amenity values('ID16', 'AM04', 'Strawberry Milkshake', 15.00);
+insert into Amenity values('ID17', 'AM04', 'Chocolate Milkshake', 15.00);
+insert into Amenity values('ID18', 'AM04', 'Banana Milkshake', 15.00);
+insert into Amenity values('ID19', 'AM04', 'Matcha Latte', 18.00);
+insert into Amenity values('ID20', 'AM04', 'Beef Burger', 30.00);
+insert into Amenity values('ID21', 'AM04', 'Burito', 20.00);
+insert into Amenity values('ID22', 'AM04', 'Roti Canai', 8.00);
+insert into Amenity values('ID23', 'AM04', 'Nasi Lemak AyamGoreng', 15.00);
+insert into Amenity values('ID24', 'AM04', 'Lamb Ribs', 40.00);
+insert into Amenity values('ID25', 'AM04', 'Crepe', 15.00);
+insert into Amenity values('ID26', 'AM04', 'Cheese Cake', 20.00);
+insert into Amenity values('ID27', 'AM04', 'Tiramisu', 18.00);
+insert into Amenity values('ID28', 'AM04', 'Creampuff', 15.00);
+
+
+insert into Amenity values('VP01', 'AM05', 'Car', 55.00);
+insert into Amenity values('VP02', 'AM05', 'Motorcycle', 35.00);
+
+insert into Amenity values('VR01', 'AM06', 'Rooftop Dining', 235.00);
+insert into Amenity values('VR02', 'AM06', 'Karaoke Room Small', 55.00);
+insert into Amenity values('VR03', 'AM06', 'Karaoke Room Deluxe', 95.00);
+insert into Amenity values('VR04', 'AM06', 'Private Bar', 200.00);
+insert into Amenity values('VR05', 'AM06', 'Poolside BBQ', 125.00);
+
+insert into Amenity values('AT01', 'AM07', 'Shampoo', 10.00);
+insert into Amenity values('AT02', 'AM07', 'Bath Soap', 10.00);
+insert into Amenity values('AT03', 'AM07', 'Conditioner', 10.00);
+insert into Amenity values('AT04', 'AM07', 'Toothbrush Set', 15.00);
+insert into Amenity values('AT05', 'AM07', 'Shaving Kit', 20.00);
+insert into Amenity values('AT06', 'AM07', 'Personal Kit', 20.00);
+insert into Amenity values('AT07', 'AM07', 'Sanitary Pads', 15.00);
+
+insert into Amenity values('SD01', 'AM08', 'BBQ Potato Chips', 15.00);
+insert into Amenity values('SD02', 'AM08', 'Salted Potato Chips', 15.00);
+insert into Amenity values('SD03', 'AM08', 'Cheese Puffs', 15.00);
+insert into Amenity values('SD04', 'AM08', 'Oreo', 10.00);
+insert into Amenity values('SD05', 'AM08', 'Cookies', 12.00);
+insert into Amenity values('SD06', 'AM08', 'Marshmallows', 20.00);
+insert into Amenity values('SD07', 'AM08', 'Sweet Potato Chips', 15.00);
+insert into Amenity values('SD08', 'AM08', 'Corn Chips', 15.00);
+insert into Amenity values('SD09', 'AM08', 'Pocky', 15.00);
+insert into Amenity values('SD10', 'AM08', 'Pepero', 20.00);
+insert into Amenity values('SD11', 'AM08', 'Haribo', 20.00);
+insert into Amenity values('SD12', 'AM08', 'Coca Cola', 10.00);
+insert into Amenity values('SD13', 'AM08', 'Sprite', 10.00);
+insert into Amenity values('SD14', 'AM08', 'Pepsi', 10.00);
+insert into Amenity values('SD15', 'AM08', 'Root Beer', 15.00);
+insert into Amenity values('SD16', 'AM08', 'Fanta', 10.00);
+insert into Amenity values('SD17', 'AM08', 'Lemon Tea', 8.00);
+insert into Amenity values('SD18', 'AM08', 'Soya Milk', 8.00);
+insert into Amenity values('SD19', 'AM08', 'Orange Juice', 10.00);
+insert into Amenity values('SD20', 'AM08', 'Aloe Vera Drink',12.00);
+
+
+insert into Amenity values('RE01', 'AM09', 'Massage Regular', 75.00);
+insert into Amenity values('RE02', 'AM09', 'Massage Deluxe', 125.00);
+insert into Amenity values('RE03', 'AM09', 'Massage Premium', 200.00);
+insert into Amenity values('RE04', 'AM09', 'Facial', 70.00);
+insert into Amenity values('RE05', 'AM09', 'Manicure', 65.00);
+insert into Amenity values('RE06', 'AM09', 'Spa', 150.00);
+insert into Amenity values('RE07', 'AM09', 'Sauna', 125.00);
+insert into Amenity values('RE08', 'AM09', 'Massage Deluxe', 125.00);
+insert into Amenity values('RE09', 'AM09', 'Fish Feet Spa', 75.00);
+
+insert into Amenity values('AC01', 'AM10', 'Open Mic', 25.00);
+insert into Amenity values('AC02', 'AM10', 'Kids Daycare', 25.00);
+insert into Amenity values('AC03', 'AM10', 'Monopoly', 20.00);
+insert into Amenity values('AC04', 'AM10', 'Uno Card', 15.00);
+insert into Amenity values('AC05', 'AM10', 'Chess', 15.00);
+insert into Amenity values('AC06', 'AM10', 'Scrabble', 20.00);
+insert into Amenity values('AC07', 'AM10', 'All U Can Eat', 45.00);
+insert into Amenity values('AC08', 'AM10', 'Bingo Night', 25.00);
+insert into Amenity values('AC09', 'AM10', 'Baking Class', 80.00);
+insert into Amenity values('AC10', 'AM10', 'Cooking Class', 65.00);

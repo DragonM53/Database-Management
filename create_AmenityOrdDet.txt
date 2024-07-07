@@ -1,0 +1,9 @@
+CREATE TABLE AmenityOrdDet (
+   AmenityOrdDetID  number(4) not null,
+   AmenityOrdID     char(6) not null,
+   AmenityCode      char(4) not null,
+   AmenityQty       number(3) default 1 not null,
+   primary key(AmenityOrdDetID),
+   foreign key(AmenityOrdID) references AmenityOrdered,
+   foreign key(AmenityCode) references Amenity   
+);

@@ -1,0 +1,28 @@
+ALTER SESSION SET NLS_DATE_FORMAT = 'DD/MM/YYYY';
+
+SET LINESIZE 120
+SET PAGESIZE 120
+ACCEPT 'reserv_no' CHAR PROMPT 'Enter the reservation number:' ;
+
+SET UNDERLINE =
+column reservno format a30 heading 'Reservation Number'
+SET UNDERLINE =
+TTITLE CENTER 'QUERY 3' SKIP 2
+SET UNDERLINE = 
+select R.reservno, SUM((checkoutdate - checkindate)* roomprice) AS "TOTAL PRICE FOR ROOM", 
+COALESCE((SELECT SUM(tourprice * noperson)
+        FROM tour T, tourordered O
+        WHERE T.tourcode = O.tourcode AND O.reservno = R.reservno), 0) AS "TOTAL PRICE FOR TOUR", 
+COALESCE((select SUM( amenityprice* amenityqty)
+	FROM amenityorddet A, amenity M, amenityordered I, roomleased RL
+	WHERE I.roomleasedid = RL.roomleasedid AND I.Amenityordid = A.amenityordid AND RL.reservno = R.reservno
+	AND M.amenitycode = A.amenitycode), 0) AS "TOTAL PRICE FOR AMENITY"
+from reservation R, roomleased RL, roomtype RT, room RO
+where R.reservno = '&reserv_no' AND RL.roomno = RO.roomno AND R.reservno = RL.reservno AND RT.roomtypecode = RO.roomtypecode
+group by R.reservno		               
+order by R.reservno;
+
+TTITLE OFF
+BTITLE OFF
+CLEAR BREAKS
+CLEAR COLUMNS

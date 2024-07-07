@@ -1,0 +1,11 @@
+insert into CorporateDiscount values ('PUBBK', 22, 'Public Bank');
+insert into CorporateDiscount values ('HLBNK', 21, 'Hong Leong Bank');
+insert into CorporateDiscount values ('CIMBK', 20, 'CIMB Bank');
+insert into CorporateDiscount values ('MAYBK', 19, 'MayBank');
+insert into CorporateDiscount values ('AMBNK', 18, 'AmBank');
+insert into CorporateDiscount values ('RHBBK', 17, 'RHB Bank');
+insert into CorporateDiscount values ('MAXIS', 23, 'Maxis');
+insert into CorporateDiscount values ('AFFIN', 18, 'Affin Bank');
+insert into CorporateDiscount values ('CELCO', 18, 'Celcom');
+insert into CorporateDiscount values ('IMMDC', 18, 'Institut Memandu Malayan Driving Centre');
+insert into CorporateDiscount values ('NOTAP', 0, 'Not Applicable');

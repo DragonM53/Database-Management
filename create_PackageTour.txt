@@ -1,0 +1,4 @@
+CREATE TABLE PackageTour (
+	PkgCode		CHAR(3) not null,
+	PRIMARY KEY(PkgCode)
+);

@@ -1,0 +1,5 @@
+CREATE OR REPLACE VIEW Room_RoomType AS
+select R.RoomTypeCode, RoomTypeName, RoomPrice, MaxOccupants, RoomNo, RoomFloor 
+from Room R, RoomType T
+where R.RoomTypeCode = T.RoomTypeCode
+WITH READ ONLY CONSTRAINT read_only;

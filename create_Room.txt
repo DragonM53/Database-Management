@@ -1,0 +1,9 @@
+CREATE TABLE Room (
+   RoomNo        NUMBER(3) not null,
+   RoomTypeCode  CHAR(2) not null,
+   RoomFloor     NUMBER(2) not null,
+   RoomStat      CHAR(1) DEFAULT 'A' not null CHECK(UPPER(RoomStat) IN ('A','O','R')),
+   ViewType      VARCHAR(20) not null CHECK(UPPER(ViewType) IN ('RIVER VIEW', 'STREET VIEW', 'SEA VIEW', 'STREET VIEW', 'MOUNTAIN VIEW')),
+   PRIMARY KEY(RoomNo),
+   FOREIGN KEY(RoomTypeCode) REFERENCES RoomType
+);

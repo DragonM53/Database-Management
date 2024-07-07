@@ -1,0 +1,6 @@
+CREATE TABLE CorporateDiscount (
+	CompanyCode 	CHAR(5) NOT NULL CHECK(LENGTH(CompanyCode) = 5),
+	DiscountPct 	NUMBER(2) DEFAULT 0 NOT NULL,
+        CompanyName     varchar(45) NOT NULL,
+	Primary Key(CompanyCode)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE PaymentType(
+	PayTypeCode 	char(4) not null,
+	PayTypeName 	varchar(30) not null,
+	Primary key(PayTypeCode)
+);

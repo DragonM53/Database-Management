@@ -1,0 +1,398 @@
+--(January 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R00004', 'S007', '2198 WDP', '03-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R00012', 'S007', '5056 VAD', '05-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R00025', NULL, NULL, '08-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R00030', NULL, NULL, '11-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R00039', NULL, NULL, '14-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R00044', NULL, NULL, '16-Jan-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R00051', NULL, NULL, '18-Jan-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R00060', NULL, NULL, '21-Jan-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R00072', 'S012', '8785 WQK', '25-Jan-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R00077', 'S012', '9042 WLN', '27-Jan-2020',  2);
+--(Febuary 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R00082', 'S007', '2198 WDP', '02-Feb-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R00093', 'S008', '5056 VAD', '06-Feb-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R00102', 'S009', '9920 VGM', '10-Feb-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R00121', NULL, NULL, '15-Feb-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R00130', 'S011', '9042 WLN', '18-Feb-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R00144', NULL, NULL, '23-Feb-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R00158', NULL, NULL, '27-Feb-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R00163', NULL, NULL, '28-Feb-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R00177', 'S012', '8785 WQK', '28-Feb-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R00189', NULL, NULL, '28-Feb-2020',  3);
+--(March 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R00193', NULL, NULL, '01-Mar-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R00204', NULL, NULL, '04-Mar-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R00210', 'S008', '9920 VGM', '06-Mar-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R00223', 'S008', '8785 WQK', '09-Mar-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R00245', NULL, NULL, '16-Mar-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R00253', NULL, NULL, '19-Mar-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R00258', 'S010', '5056 VAD', '21-Mar-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R00264', NULL, NULL, '24-Mar-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R00271', 'S011', '8785 WQK', '26-Mar-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R00274', NULL, NULL, '28-Mar-2020',  2);
+--(April 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R00283', 'S007', '2198 WDP', '03-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R00291', 'S008', '5056 VAD', '06-Apr-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R00304', NULL, NULL, '10-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R00315', NULL, NULL, '14-Apr-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R00329', NULL, NULL, '18-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R00335', NULL, NULL, '20-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R00340', NULL, NULL, '22-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R00342', NULL, NULL, '23-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R00348', 'S012', '8785 WQK', '26-Apr-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R00350', 'S012', '9042 WLN', '28-Apr-2020',  3);
+--(May 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R00357', 'S007', '2198 WDP', '02-May-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R00361', 'S007', '5056 VAD', '04-May-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R00375', 'S008', '9920 VGM', '08-May-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R00384', NULL, NULL, '11-May-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R00392', 'S010', '9042 WLN', '14-May-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R00401', NULL, NULL, '17-May-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R00413', NULL, NULL, '21-May-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R00419', NULL, NULL, '24-May-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R00424', 'S012', '8785 WQK', '25-May-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R00428', NULL, NULL, '28-May-2020',  2);
+--(June 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R00431', NULL, NULL, '01-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R00442', NULL, NULL, '05-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R00451', 'S008', '9920 VGM', '08-Jun-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R00460', 'S009', '8785 WQK', '11-Jun-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R00473', NULL, NULL, '16-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R00482', NULL, NULL, '18-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R00490', 'S011', '5056 VAD', '21-Jun-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R00503', NULL, NULL, '26-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R00512', 'S012', '8785 WQK', '28-Jun-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R00529', NULL, NULL, '29-Jun-2020',  2);
+--(July 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R00536', 'S007', '2198 WDP', '01-Jul-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R00544', 'S007', '5056 VAD', '02-Jul-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R00559', NULL, NULL, '04-Jul-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R00567', NULL, NULL, '07-Jul-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R00571', NULL, NULL, '10-Jul-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R00583', NULL, NULL, '13-Jul-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R00590', NULL, NULL, '15-Jul-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R00602', NULL, NULL, '20-Jul-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R00614', 'S012', '8785 WQK', '23-Jul-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R00623', 'S012', '9042 WLN', '27-Jul-2020',  4);
+--(August 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R00627', 'S007', '2198 WDP', '02-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R00629', 'S007', '5056 VAD', '03-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R00634', 'S008', '9920 VGM', '05-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R00640', NULL, NULL, '06-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R00656', 'S008', '9042 WLN', '10-Aug-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R00661', NULL, NULL, '13-Aug-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R00674', NULL, NULL, '16-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R00682', NULL, NULL, '19-Aug-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R00691', 'S011', '8785 WQK', '23-Aug-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R00701', NULL, NULL, '28-Aug-2020',  2);
+--(September 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R00703', NULL, NULL, '01-Sep-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R00710', NULL, NULL, '04-Sep-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R00721', 'S008', '9920 VGM', '06-Sep-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R00734', 'S009', '8785 WQK', '11-Sep-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R00743', NULL, NULL, '14-Sep-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R00758', NULL, NULL, '19-Sep-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R00763', 'S011', '5056 VAD', '20-Sep-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R00769', NULL, NULL, '22-Sep-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R00771', 'S012', '8785 WQK', '25-Sep-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R00776', NULL, NULL, '27-Sep-2020',  2);
+--(October 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R00783', 'S007', '2198 WDP', '03-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R00792', 'S008', '5056 VAD', '06-Oct-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R00801', NULL, NULL, '09-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R00814', NULL, NULL, '14-Oct-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R00820', NULL, NULL, '16-Oct-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R00826', NULL, NULL, '18-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R00835', NULL, NULL, '22-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R00839', NULL, NULL, '22-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R00843', 'S011', '8785 WQK', '25-Oct-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R00850', 'S012', '9042 WLN', '27-Oct-2020',  3);
+--(November 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R00857', 'S007', '2198 WDP', '03-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R00865', 'S008', '5056 VAD', '05-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R00871', 'S009', '9920 VGM', '08-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R00889', NULL, NULL, '13-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R00897', 'S011', '9042 WLN', '16-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R00904', NULL, NULL, '18-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R00920', NULL, NULL, '24-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R00944', NULL, NULL, '28-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R00953', 'S012', '8785 WQK', '29-Nov-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R00968', NULL, NULL, '30-Nov-2020',  3);
+--(December 2020)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R00974', NULL, NULL, '03-Dec-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R00983', NULL, NULL, '05-Dec-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R00990', 'S008', '9920 VGM', '08-Dec-2020',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R01001', 'S009', '8785 WQK', '11-Dec-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R01012', NULL, NULL, '14-Dec-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R01016', NULL, NULL, '16-Dec-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R01025', 'S011', '5056 VAD', '18-Dec-2020',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R01030', NULL, NULL, '21-Dec-2020',  5);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R01038', 'S012', '8785 WQK', '25-Dec-2020',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R01047', NULL, NULL, '28-Dec-2020',  4);
+
+--(January 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R01054', 'S007', '2198 WDP', '03-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R01062', 'S007', '5056 VAD', '05-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R01075', NULL, NULL, '08-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R01080', NULL, NULL, '11-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R01089', NULL, NULL, '14-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R01094', NULL, NULL, '16-Jan-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R01101', NULL, NULL, '18-Jan-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R01110', NULL, NULL, '21-Jan-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R01120', 'S012', '8785 WQK', '25-Jan-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R01124', 'S012', '9042 WLN', '27-Jan-2021',  2);
+--(Febuary 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R01129', 'S007', '2198 WDP', '02-Feb-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R01137', 'S008', '5056 VAD', '06-Feb-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R01149', 'S009', '9920 VGM', '10-Feb-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R01164', NULL, NULL, '15-Feb-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R01173', 'S011', '9042 WLN', '18-Feb-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R01187', NULL, NULL, '23-Feb-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R01198', NULL, NULL, '27-Feb-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R01200', NULL, NULL, '28-Feb-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R01211', 'S012', '8785 WQK', '28-Feb-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R01223', NULL, NULL, '28-Feb-2021',  3);
+--(March 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R01245', NULL, NULL, '01-Mar-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R01251', NULL, NULL, '04-Mar-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R01257', 'S008', '9920 VGM', '06-Mar-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R01266', 'S008', '8785 WQK', '09-Mar-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R01290', NULL, NULL, '16-Mar-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R01299', NULL, NULL, '19-Mar-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R01304', 'S010', '5056 VAD', '21-Mar-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R01311', NULL, NULL, '24-Mar-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R01318', 'S011', '8785 WQK', '26-Mar-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R01321', NULL, NULL, '28-Mar-2021',  2);
+--(April 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R01326', 'S007', '2198 WDP', '03-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R01338', 'S008', '5056 VAD', '06-Apr-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R01347', NULL, NULL, '10-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R01359', NULL, NULL, '14-Apr-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R01372', NULL, NULL, '18-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R01379', NULL, NULL, '20-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R01385', NULL, NULL, '22-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R01389', NULL, NULL, '23-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R01394', 'S012', '8785 WQK', '26-Apr-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R01397', 'S012', '9042 WLN', '28-Apr-2021',  3);
+--(May 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R01400', 'S007', '2198 WDP', '02-May-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R01407', 'S007', '5056 VAD', '04-May-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R01420', 'S008', '9920 VGM', '08-May-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R01432', NULL, NULL, '11-May-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R01437', 'S010', '9042 WLN', '14-May-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R01445', NULL, NULL, '17-May-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R01458', NULL, NULL, '21-May-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R01467', NULL, NULL, '24-May-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R01470', 'S012', '8785 WQK', '25-May-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R01475', NULL, NULL, '28-May-2021',  2);
+--(June 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R01477', NULL, NULL, '01-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R01486', NULL, NULL, '05-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R01497', 'S008', '9920 VGM', '08-Jun-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R01505', 'S009', '8785 WQK', '11-Jun-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R01521', NULL, NULL, '16-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R01527', NULL, NULL, '18-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R01534', 'S011', '5056 VAD', '21-Jun-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R01547', NULL, NULL, '26-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R01556', 'S012', '8785 WQK', '28-Jun-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R01587', NULL, NULL, '29-Jun-2021',  2);
+--(July 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R01595', 'S007', '2198 WDP', '01-Jul-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R01601', 'S007', '5056 VAD', '02-Jul-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R01605', NULL, NULL, '04-Jul-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R01614', NULL, NULL, '07-Jul-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R01626', NULL, NULL, '10-Jul-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R01634', NULL, NULL, '13-Jul-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R01639', NULL, NULL, '15-Jul-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R01652', NULL, NULL, '20-Jul-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R01663', 'S012', '8785 WQK', '23-Jul-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R01671', 'S012', '9042 WLN', '27-Jul-2021',  4);
+--(August 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R01679', 'S007', '2198 WDP', '02-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R01682', 'S007', '5056 VAD', '03-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R01685', 'S008', '9920 VGM', '05-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R01691', NULL, NULL, '06-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R01698', 'S008', '9042 WLN', '10-Aug-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R01712', NULL, NULL, '13-Aug-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R01721', NULL, NULL, '16-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R01727', NULL, NULL, '19-Aug-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R01741', 'S011', '8785 WQK', '23-Aug-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R01749', NULL, NULL, '28-Aug-2021',  2);
+--(September 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R01752', NULL, NULL, '01-Sep-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R01761', NULL, NULL, '04-Sep-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R01768', 'S008', '9920 VGM', '06-Sep-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R01780', 'S009', '8785 WQK', '11-Sep-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R01789', NULL, NULL, '14-Sep-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R01804', NULL, NULL, '19-Sep-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R01807', 'S011', '5056 VAD', '20-Sep-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R01813', NULL, NULL, '22-Sep-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R01822', 'S012', '8785 WQK', '25-Sep-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R01825', NULL, NULL, '27-Sep-2021',  2);
+--(October 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R01827', 'S007', '2198 WDP', '03-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R01836', 'S008', '5056 VAD', '06-Oct-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R01845', NULL, NULL, '09-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R01860', NULL, NULL, '14-Oct-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R01868', NULL, NULL, '16-Oct-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R01875', NULL, NULL, '18-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R01881', NULL, NULL, '22-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R01887', NULL, NULL, '22-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R01893', 'S011', '8785 WQK', '25-Oct-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R01897', 'S012', '9042 WLN', '27-Oct-2021',  3);
+--(November 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R01900', 'S007', '2198 WDP', '03-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R01911', 'S008', '5056 VAD', '05-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R01919', 'S009', '9920 VGM', '08-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R01932', NULL, NULL, '13-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R01940', 'S011', '9042 WLN', '16-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R01949', NULL, NULL, '18-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R01968', NULL, NULL, '24-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R01975', NULL, NULL, '28-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R01998', 'S012', '8785 WQK', '29-Nov-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R02009', NULL, NULL, '30-Nov-2021',  3);
+--(December 2021)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R02023', NULL, NULL, '03-Dec-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R02031', NULL, NULL, '05-Dec-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R02039', 'S008', '9920 VGM', '08-Dec-2021',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R02051', 'S009', '8785 WQK', '11-Dec-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R02057', NULL, NULL, '14-Dec-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R02063', NULL, NULL, '16-Dec-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R02070', 'S011', '5056 VAD', '18-Dec-2021',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R02081', NULL, NULL, '21-Dec-2021',  5);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R02089', 'S012', '8785 WQK', '25-Dec-2021',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R02094', NULL, NULL, '28-Dec-2021',  4);
+
+--(January 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R02103', 'S007', '2198 WDP', '03-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R02110', 'S007', '5056 VAD', '05-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R02119', NULL, NULL, '08-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R02125', NULL, NULL, '11-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R02136', NULL, NULL, '14-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R02143', NULL, NULL, '16-Jan-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R02148', NULL, NULL, '18-Jan-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R02155', NULL, NULL, '21-Jan-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R02166', 'S012', '8785 WQK', '25-Jan-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R02169', 'S012', '9042 WLN', '27-Jan-2022',  2);
+--(Febuary 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R02173', 'S007', '2198 WDP', '02-Feb-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R02186', 'S008', '5056 VAD', '06-Feb-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R02199', 'S009', '9920 VGM', '10-Feb-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R02214', NULL, NULL, '15-Feb-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R02220', 'S011', '9042 WLN', '18-Feb-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R02237', NULL, NULL, '23-Feb-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R02246', NULL, NULL, '27-Feb-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R02264', NULL, NULL, '28-Feb-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R02271', 'S012', '8785 WQK', '28-Feb-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R02283', NULL, NULL, '28-Feb-2022',  3);
+--(March 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R02292', NULL, NULL, '01-Mar-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R02299', NULL, NULL, '04-Mar-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R02307', 'S008', '9920 VGM', '06-Mar-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R02318', 'S008', '8785 WQK', '09-Mar-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R02338', NULL, NULL, '16-Mar-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R02343', NULL, NULL, '19-Mar-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R02354', 'S010', '5056 VAD', '21-Mar-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R02359', NULL, NULL, '24-Mar-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R02363', 'S011', '8785 WQK', '26-Mar-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R02368', NULL, NULL, '28-Mar-2022',  2);
+--(April 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R02372', 'S007', '2198 WDP', '03-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R02384', 'S008', '5056 VAD', '06-Apr-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R02395', NULL, NULL, '10-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R02408', NULL, NULL, '14-Apr-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R02420', NULL, NULL, '18-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R02425', NULL, NULL, '20-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R02435', NULL, NULL, '22-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R02437', NULL, NULL, '23-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R02443', 'S012', '8785 WQK', '26-Apr-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R02445', 'S012', '9042 WLN', '28-Apr-2022',  3);
+--(May 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R02448', 'S007', '2198 WDP', '02-May-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R02455', 'S007', '5056 VAD', '04-May-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R02468', 'S008', '9920 VGM', '08-May-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R02477', NULL, NULL, '11-May-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R02484', 'S010', '9042 WLN', '14-May-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R02495', NULL, NULL, '17-May-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R02509', NULL, NULL, '21-May-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R02514', NULL, NULL, '24-May-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R02518', 'S012', '8785 WQK', '25-May-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R02522', NULL, NULL, '28-May-2022',  2);
+--(June 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R02525', NULL, NULL, '01-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R02535', NULL, NULL, '05-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R02544', 'S008', '9920 VGM', '08-Jun-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R02551', 'S009', '8785 WQK', '11-Jun-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R02568', NULL, NULL, '16-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R02572', NULL, NULL, '18-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R02586', 'S011', '5056 VAD', '21-Jun-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R02595', NULL, NULL, '26-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R02605', 'S012', '8785 WQK', '28-Jun-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R02625', NULL, NULL, '29-Jun-2022',  2);
+--(July 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R02639', 'S007', '2198 WDP', '01-Jul-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R02642', 'S007', '5056 VAD', '02-Jul-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R02650', NULL, NULL, '04-Jul-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R02661', NULL, NULL, '07-Jul-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R02666', NULL, NULL, '10-Jul-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R02677', NULL, NULL, '13-Jul-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R02685', NULL, NULL, '15-Jul-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R02699', NULL, NULL, '20-Jul-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R02709', 'S012', '8785 WQK', '23-Jul-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R02718', 'S012', '9042 WLN', '27-Jul-2022',  4);
+--(August 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R02720', 'S007', '2198 WDP', '02-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R02727', 'S007', '5056 VAD', '03-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R02733', 'S008', '9920 VGM', '05-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R02738', NULL, NULL, '06-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R02747', 'S008', '9042 WLN', '10-Aug-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R02759', NULL, NULL, '13-Aug-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R02768', NULL, NULL, '16-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R02774', NULL, NULL, '19-Aug-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R02786', 'S011', '8785 WQK', '23-Aug-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R02796', NULL, NULL, '28-Aug-2022',  2);
+--(September 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R02799', NULL, NULL, '01-Sep-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R02806', NULL, NULL, '04-Sep-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R02812', 'S008', '9920 VGM', '06-Sep-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R02825', 'S009', '8785 WQK', '11-Sep-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R02834', NULL, NULL, '14-Sep-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R02848', NULL, NULL, '19-Sep-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R02854', 'S011', '5056 VAD', '20-Sep-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R02862', NULL, NULL, '22-Sep-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R02866', 'S012', '8785 WQK', '25-Sep-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R02872', NULL, NULL, '27-Sep-2022',  2);
+--(October 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W01', 'R02874', 'S007', '2198 WDP', '03-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W02', 'R02886', 'S008', '5056 VAD', '06-Oct-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W03', 'R02895', NULL,  NULL, '09-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W04', 'R02907', NULL, NULL, '14-Oct-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W05', 'R02915', NULL, NULL, '16-Oct-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W06', 'R02922', NULL, NULL, '18-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W07', 'R02931', NULL, NULL, '22-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W08', 'R02931', NULL, NULL, '22-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W09', 'R02938', 'S011', '8785 WQK', '25-Oct-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W10', 'R02944', 'S012', '9042 WLN', '27-Oct-2022',  3);
+--(November 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W11', 'R02946', 'S007', '2198 WDP', '03-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W12', 'R02957', 'S008', '5056 VAD', '05-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W13', 'R02966', 'S009', '9920 VGM', '08-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W14', 'R02981', NULL, NULL, '13-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W15', 'R02993', 'S011', '9042 WLN', '16-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W16', 'R02998', NULL, NULL, '18-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W17', 'R03012', NULL, NULL, '24-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W18', 'R03022', NULL, NULL, '28-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W19', 'R03028', 'S012', '8785 WQK', '29-Nov-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W20', 'R03054', NULL, NULL, '30-Nov-2022',  3);
+--(December 2022)
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W21', 'R03068', NULL, NULL, '03-Dec-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W22', 'R03077', NULL, NULL, '05-Dec-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W23', 'R03086', 'S008', '9920 VGM', '08-Dec-2022',  3);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W24', 'R03097', 'S009', '8785 WQK', '11-Dec-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W25', 'R03104', NULL, NULL, '14-Dec-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W26', 'R03108', NULL, NULL, '16-Dec-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W27', 'R03119', 'S011', '5056 VAD', '18-Dec-2022',  2);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W28', 'R03125', NULL, NULL, '21-Dec-2022',  5);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W29', 'R03137', 'S012', '8785 WQK', '25-Dec-2022',  4);
+insert into tourOrdered (TourOrderedNo, TourCode, ReservNo, StaffNo, VehicleRegNo, TourDate, NoPerson) values (CONCAT('T',TO_CHAR(SEQ_TORD_NO.NEXTVAL, 'fm0000')), 'W30', 'R03141', NULL, NULL, '28-Dec-2022',  4);

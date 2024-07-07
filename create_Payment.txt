@@ -1,0 +1,12 @@
+CREATE TABLE Payment (
+	PayRefNo 	char(8) not null,
+	ReservNo 	char(6) not null,
+	StaffNo         char(4) not null,
+	PayTypeCode 	char(4) not null,
+	PayDate 	date DEFAULT TO_DATE(SYSDATE, 'DD-MON-YYYY') not null,
+	PayAmt 		number(8,2) not null,
+	Primary Key(PayRefNo),
+	Foreign Key(PayTypeCode) References PaymentType(PayTypeCode),
+        Foreign Key(ReservNo) References Reservation,
+        Foreign Key(StaffNo) References Staff
+);

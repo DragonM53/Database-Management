@@ -1,0 +1,8 @@
+CREATE TABLE Amenity (
+   AmenityCode      char(4)   not null,
+   AmenityCatCode   char(4)   not null,
+   AmenityName      varchar(25)  not null,
+   AmenityPrice     number(5,2) not null,
+   primary key(AmenityCode),
+   foreign key(AmenityCatCode) REFERENCES AmenityCategory
+);
